@@ -12,23 +12,23 @@ Este es un proyecto de aplicación de chatbot desarrollado en Flutter. La aplica
 
 La estructura del proyecto está organizada de la siguiente manera:
 
-lib
-├── chat
-│ ├── bloc
-│ │ ├── chat_bloc.dart
-│ │ ├── chat_event.dart
-│ │ ├── chat_state.dart
-│ │ └── mocks
-│ │ ├── bot_messages.dart
-│ ├── chat_home.dart
-│ ├── chat_message.dart
-│ └── widgets
-│ ├── chat
-│ │ ├── chat_container_widget.dart
-│ │ └── chat_widget.dart
-│ └── notification_widget.dart
-├── dashboard
-│ └── dashboard_widget.dart
+-lib
+--chat
+--- bloc
+---- chat_bloc.dart
+---- chat_event.dart
+---- chat_state.dart
+--- mocks
+---- bot_messages.dart
+--- chat_home.dart
+--- chat_message.dart
+--- widgets
+---- chat
+---- chat_container_widget.dart
+---- chat_widget.dart
+---- notification_widget.dart
+---dashboard
+---- dashboard_widget.dart
 
 - **chat/bloc**: Contiene los archivos relacionados con BLoC (`chat_bloc.dart`, `chat_event.dart`, `chat_state.dart`) y mocks (`bot_messages.dart`).
 - **chat**: Contiene la pantalla principal del chat (`chat_home.dart`) y el modelo de mensaje (`chat_message.dart`).
